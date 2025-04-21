@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+/* 
+font
+
+1)merriweather 폰트 (영문)
+font-family: "Merriweather", serif;
+font-weight: 300~900;
+
+2) nanum gothic 폰트 (한글)
+ font-family: "Nanum Gothic", sans-serif;
+ font-weight: 400 | 700 | 800;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.clear::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+header nav .top {
+    width: 100%;
+    background-color: #999;
+    margin: 0 auto;
+   
+}
+
+.top li {
+    float: left;
+    position: relative;
+    left: 1280px;
+    
+}
+
+header .menu-wrap {
+    background-color: bisque;
+    width: 1280px;
+    margin: 0 auto;
+}
+header .menu-wrap .logo {}
+header .menu-wrap nav menu li {
+    
+}
+
+header .search img {}
+
+
+section .main-photo .image-wrap .image1 {
+
+}
+section .main-photo .image-wrap .image2 {
+
+}
+
+.md-pick h2 {
+    font-family: Merriweather;
+    font-size: 24px;
+    color: rgb(207,102,26);
+ text-align: center;
+}
+
+.md-pick .content-wrap {
+    
+}
+.md-pick .content-wrap .content {
+    outline: 2px solid red;
+
+    width: 320px;
+    float: left;
+    
+}
+.content .prix .name {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
